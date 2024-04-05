@@ -1,0 +1,52 @@
+body {
+  width: 600px;
+  padding: 1px 150px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+h1 {
+  background-color: #3c3c3c;
+  border-radius: 25px;
+  color: white;
+  font-family: "kavivanar", cursive;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+p {
+  font-family: "montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.subheading {
+  font-family: "kavivanar", cursive;
+  font-variant: small-caps;
+}
+
+.textbelowimage {
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+#pawn {
+  color: orange;
+}
+
+#knight {
+  color: blue;
+}
+
+#Queen {
+  color: red;
+}
+
+html {
+  background-image: url("images/boardBackground.jpg");
+  background-repeat: repeat;
+}
